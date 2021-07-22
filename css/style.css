@@ -1,0 +1,1063 @@
+
+html {
+  overflow-x: hidden;
+}
+body {
+  font-family: 'Lato' ,sans-serif;
+  font-weight:300;
+  color: #000;
+  font-size:16px;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+  font-weight:300;
+}
+a {
+  color: #787878;
+}
+a:focus, button:focus {
+  outline: none;
+  box-shadow: none;
+}
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+p {
+  line-height: 30px;
+}
+.btn-gold {
+    font-size:15px;
+    color:white;
+    padding: 12px 20px;
+    background-color: #ae9965;
+    border-radius: 0px;
+    margin: 0px 0 55px 0;
+    text-transform: uppercase;
+}
+.btn-gold:hover {
+    background-color: #9e8a57;
+}
+.hp_hero_res_btn {
+    display: block;
+    width: 230px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+.hp_hero_res_btn.mobile {
+    position: absolute;
+    top: 305px;
+    left: calc(50% - 115px);
+}
+@media (min-width: 992px) {
+  .hp_hero_res_btn.mobile {
+    display:none;
+  }
+}
+.boxed-page {
+  position: relative;
+  border-color: #ededed;
+  background-color: #fff;
+}
+.boxed-page .section-padding {
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+@media (min-width: 992px) {
+  .boxed-page .section-padding {
+    padding-top: 130px;
+    padding-bottom: 130px;
+  }
+}
+#navbar-header .container {
+    width: 1170px !important;
+}
+@media (min-width: 1200px) {
+    .container {
+    max-width: 960px;
+    }
+}
+.submit_btn {
+  width:120px !important;
+  height:42px;
+  border:1px solid #dadad9;
+  color:#565555;
+  text-transform: uppercase;
+  border-radius: 0px !important;
+  margin-top:15px;
+}
+.submit_btn:hover {
+    background-color: gainsboro;
+    border: 1px solid #b1b1b1;
+}
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.margin-bottom_10 {
+    margin-bottom:10px;
+}
+.margin-bottom_60 {
+    margin-bottom:60px;
+}
+.nowrap {
+    white-space: nowrap;
+}
+/*--------------------------------------- Page Heros  --------------------------------------- */
+.hero_welcome {
+    background-image: url(../img/hero_welcome.jpg);
+    background-position: 80% 0;
+    background-size: cover;
+    height: 742px;
+    background-repeat: no-repeat;
+}
+@media (max-width: 768px) {
+    .hero_welcome {
+        /* border:1px solid red; */
+        background-position-x: -289px;
+        height: 497px;
+  }
+}
+.hero_menu {
+    background-image: url(../img/hero_menu.jpg);
+    background-position: 80% 0;
+    background-size: cover;
+    height: 417px;
+    background-repeat: no-repeat;
+}
+@media (max-width: 992px) {
+  .hero_menu {
+      background-position-x: -100px;
+  }
+}
+.hero_reservations {
+    background-image: url(../img/hero_reservations.jpg);
+    background-position: 80% 0;
+    background-size: cover;
+    height: 417px;
+    background-repeat: no-repeat;
+}
+@media (max-width: 776px) {
+  .hero_reservations {
+      background-position-x: -378px;
+  }
+}
+@media (min-width: 1300px) {
+  .hero_reservations {
+      background-position-y: -58px;
+  }
+}
+.hero_privatedining {
+    background-image: url(../img/hero_privatedining.jpg);d
+    background-position: 80% 0;
+    background-size: cover;
+    height: 417px;
+    background-repeat: no-repeat;
+}
+@media (max-width: 776px) {
+  .hero_privatedining {
+    background-position-x: -233px;
+  }
+}
+.hero_about {
+    background-image: url(../img/hero_about.jpg);
+    background-position: 80% 0;
+    background-size: cover;
+    height: 417px;
+    background-repeat: no-repeat;
+}
+@media (max-width: 850px) {
+  .hero_about {
+    background-position-x: -300px;
+  }
+}
+@media (min-width: 1400px) {
+  .hero_about {
+    background-position-y: -100px;
+  }
+}
+.hero_events {
+    background-image: url(../img/hero_events.jpg);
+    background-position: 80% 0;
+    background-size: cover;
+    height: 417px;
+    background-repeat: no-repeat;
+}
+/*------------------------------------ Welcome Page  ----------------------------------- */
+#welcome_promos {
+    background-image: url(../img/gold_patter_bkgd.png);
+    background-position: 80% 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top:100px;
+    padding-bottom:100px;
+}
+@media (max-width: 768px) {
+  #welcome_promos img.wine_tall {
+    display:none;
+  }
+}
+@media (min-width: 768px) {
+  #welcome_promos img.wine_wide {
+  display:none;
+  }
+}
+#welcome_intro {
+    background-color: white;
+    border-top:none;
+    padding-top:105px;
+}
+@media (max-width: 576px) {
+  #welcome_intro {
+    display:none;
+  }
+}
+#welcome_intro_mobile {
+    background-color: white;
+    border-top:none;
+    padding-top: 50px;
+}
+@media (min-width: 576px) {
+  #welcome_intro_mobile  {
+    display:none;
+  }
+}
+@media (max-width: 576px) {
+  #welcome_intro_mobile h1, #welcome_intro_mobile p, .intro_rightcolumn h1 {
+    text-align: center;
+    padding-left:20px;
+    padding-right:20px;
+  }
+}
+@media (min-width: 576px) {
+    .intro_leftcolumn h1 {
+        padding-top:0px;
+    }
+}
+#welcome_quote {
+    padding:50px 0;
+}
+@media (max-width: 576px) {
+    #welcome_quote {
+        padding: 50px 0px 50px 0px;
+    }
+}
+#welcome_quote h1 {
+    color:#ae9a65;
+    font-style: italic;
+}
+#instagram_widget {
+    background-color:white;
+}
+@media (max-width: 575px) {
+    #instagram_widget {
+      display:none;
+    }
+}
+#instagram_widget img {
+    margin-bottom:46px;
+}
+
+#welcome_cocktails {
+    background-color:white;
+    margin-bottom:80px;
+}
+@media (max-width: 768px) {
+    #welcome_cocktails {
+        display:none;
+    }
+}
+#welcome_cocktails h1 {
+    font-size: 48px;
+    color:#ae9a65;
+    text-align: center;
+    margin-bottom:30px;
+}
+.cocktails_container {
+    border-top:1px solid #ae9a65;
+    border-bottom:1px solid #ae9a65;
+    padding-top:80px;
+    height:100%;
+}
+#welcome_giftcards {
+    background-color:white;
+    padding:115px 0 64px 0;
+}
+#welcome_giftcards h1 {
+    color: #ae9a65;
+    font-size: 48px;
+    padding-top: 10px;
+}
+#welcome_giftcards p {
+    color:#ae9a65;
+}
+#welcome_promos {
+  padding-top:112px;
+}
+.promo_text_container {
+    background-color: white;
+    width: 100%;
+    padding: 50px;
+    color: #ae9a65;
+    height: 348px;
+}
+@media (max-width: 768px) {
+  #welcome_promos {
+    padding:40px 30px;
+  }
+  .promo_text_container {
+      padding: 30px;
+      text-align: center;
+      height:390px;
+  }
+}
+
+
+/*------------------------------------ Menu Page  ----------------------------------- */
+.menu_container {
+    height: 90px;
+    width:932px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+}
+@media (max-width: 934px) {
+  .menu_container {
+    width:100%;
+  }
+}
+@media (min-width: 768px) {
+  .menu_container_mobile {
+    display:none;
+  }
+}
+@media (max-width: 768px) {
+  .menu_container {
+    display:none;
+  }
+}
+
+.menu_nav {
+    width:100%;
+    height: 37px;
+    margin-top: 60px;
+    border-bottom:1px solid #e4e4e4;
+    font-family: sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    color:#787878;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 21px;
+}
+.menu_nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu_nav li {
+    display: inline;
+    margin: 0px 0px;
+    height: 102px;
+    text-align: center;
+    padding: 15px;
+}
+.menu_nav li:hover {
+  border-bottom: 2px solid #a2a2a2;
+  color:black;
+}
+.test {
+    border-bottom: 2px solid #a2a2a2;
+    color:black;
+}
+#dinner_menu, #lunch_menu, #lounge_menu, #dessert_menu, #wine_list {
+    padding-bottom: 100px;
+}
+@media (max-width: 768px) {
+  #dinner_menu, #lunch_menu, #lounge_menu, #dessert_menu, #wine_list {
+    margin-top:60px;
+  }
+}
+#dinner_menu h1, #lunch_menu h1, #lounge_menu h1, #dessert_menu h1, #wine_list h1 {
+    font-size:42px;
+    color:#a4905c;
+    border-bottom: 1px solid #e4e4e4;
+    padding-bottom: 10px;
+    width: 360px;
+    margin:40px auto;
+}
+.menu_category_container {
+}
+.menu_item {
+    color:#383838;
+    padding-bottom: 25px;
+}
+.menu_item_title, .menu_item_price {
+    font-size:18px;
+    font-weight: bold;
+}
+.menu_item_price {
+    text-align: right;
+}
+.menu_item_detail {
+    font-size:18px;
+}
+.menu_item_declaimer {
+    font-size:16px;
+    margin: 50px 20px;
+}
+.menu_item_declaimer span {
+    font-weight:bold;
+}
+.menu_steak_note {
+    font-size: 18px;
+    margin: -20px 0 40px 0;
+}
+/*------------------------------------ Reservations Page  ----------------------------------- */
+#reservations_intro {
+  background-color:#fff;
+  text-align: center;
+  color: #3f3f3f;
+  padding: 50px;
+}
+
+/*----------  Reservations Form  ----------*/
+#reservations_form {
+  background-color:#ae9965;
+  text-align: center;
+  color:white;
+  padding: 63px 0;
+}
+#reservations_form p a, #reservations_form_mobile p a {
+  color:white;
+}
+#reservations_form h1 {
+  padding: 0px 0 20px 0;
+}
+#reservations_form_mobile {
+  background-color:#ae9965;
+  text-align: center;
+  color:white;
+  padding: 63px 50px;
+}
+#reservations_form_mobile h1 {
+  padding: 0px 0 20px 0;
+}
+@media (max-width: 836px) {
+  #reservations_form {
+    display:none;
+  }
+}
+@media (min-width: 837px) {
+  #reservations_form_mobile {
+    display:none;
+  }
+}
+/*----------  Open Table Widget Overwrites  ----------*/
+/*-----  Desktop  -----*/
+.ot-title, .ot-powered-by {
+  display:none !important;
+}
+.ot-dtp-picker.wide {
+    width: 835px !important;
+    margin-left:auto;
+    margin-right:auto;
+}
+.ot-button {
+    background-color: #ae9965 !important;
+    border-color: #544622 !important;
+    border-color:white !important;
+    box-shadow: none !important;
+    border:1px solid white !important;
+    height: 47px !important;
+}
+/*-----  Mobile  -----*/
+.ot-dtp-picker {
+    background: #ae9965 !important;
+}
+.ot-button {
+    background-color: #da3743;
+    border: 1px solid #da3743;
+}
+.picker__close {
+    color: #ae9965 !important;
+}
+.picker__day--selected, .picker__day--highlighted {
+    border: 2px solid #ae9965 !important;
+}
+.picker__day--infocus:hover, .picker__day--outfocus:hover {
+    border: 2px solid black !important;
+}
+.ot-dtp-picker {
+    width: 70% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+/*----------  Email Signup Form  ----------*/
+#email_signupform {
+  height: 490px;
+  background-color:#fff;
+  text-align: center;
+  color:#ae9965;
+}
+#email_signupform h1 {
+    padding: 140px 0 0px 0;
+}
+.form-textbox {
+  background-color:#e9e9e9;
+  border:none;
+  width:500px;
+  height:40px;
+  padding-left:22px;
+}
+@media (max-width: 629px) {
+    .form-textbox {
+        width: 80%;
+    }
+}
+.btn_subscribe {
+  background-color:#ae9965;
+  color:#fff;
+  text-align: center;
+  width:500px;
+  height:40px;
+  font-size: 15px;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top:8px;
+}
+.btn_subscribe:hover {
+    background-color:#9e8a57;
+}
+@media (max-width: 629px) {
+    .btn_subscribe {
+        width:80% !important;
+    }
+}
+/*------------------------------------ Private Dining Page  ----------------------------------- */
+#privatedining_intro {
+  background-color:#fff;
+  text-align: center;
+  color: #3f3f3f;
+  /* padding-bottom: 40px; */
+  padding: 50px;
+}
+#privatedining_intro h1 {
+  padding: 0px 0 20px 0;
+}
+#winecellar_rooms {
+  background-color:#f5f4f3;
+  padding-bottom: 40px;
+}
+#winecellar_rooms img {
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:63px;
+}
+#winecellar_rooms h2 {
+  color:#ad9868;
+  font-size: 30px;
+  margin-top:60px;
+}
+#winecellar_rooms p {
+  color:#ad9868;
+}
+#belvedereloft {
+  background-color:#fff;
+  padding-bottom: 40px;
+}
+#belvedereloft img {
+  margin-top:86px;
+}
+#belvedereloft h2 {
+  color:#ad9868;
+  font-size: 30px;
+  margin-top:57px;
+}
+#belvedereloft p {
+  color:#ad9868;
+}
+#offsite_catering {
+  background-color:#f5f4f3;
+  padding-bottom: 80px;
+}
+#offsite_catering h2 {
+  padding-top:115px;
+  padding:115px 0 40px 0;
+  margin:0;
+  color:#ad9868;
+}
+#offsite_catering .col-sm-7 {
+  line-height: 30px;
+  padding-right:90px;
+}
+/*----------  Form  ----------*/
+.catering_form {
+  margin-top:95px;
+}
+.catering_form input {
+  font-family: Arial;
+  color: #000000;
+  font-size: 14px;
+  border-radius: 3px;
+  border: 1px solid #c2c8cd;
+  width: 100%;
+  min-height: 38px;
+  margin-bottom: 12px;
+  padding: 6px;
+}
+
+/*------------------------------------ About Page  ----------------------------------- */
+
+#about_intro {
+  background-color:#fff;
+  text-align: center;
+  color: #3f3f3f;
+  padding: 50px;
+}
+#about_intro h1 {
+  padding: 0px 0 20px 0;
+}
+#about_history {
+  background-color:#f5f4f3;
+  padding-bottom: 45px;
+}
+#about_history img {
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:63px;
+}
+#about_history h2 {
+  color:#ad9868;
+  font-size: 30px;
+  margin-top:60px;
+}
+#about_history p {
+  color:#ad9868;
+}
+#about_renovation {
+  background-color:#fff;
+  padding-bottom: 65px;
+}
+#about_renovation img {
+  margin-top:86px;
+}
+#about_renovation h2 {
+  color:#ad9868;
+  font-size: 30px;
+  margin-top:57px;
+}
+#about_renovation p {
+  color:#ad9868;
+}
+/*----------------------------------------- Footer  ----------------------------------------- */
+
+/*----------  Footer  ----------*/
+footer {
+  background-color:#333333;
+  color:#fff;
+  padding: 62px 0 90px 0
+}
+footer a {
+  color:white;
+  font-size: 21px;
+}
+footer a:hover {
+  color:#dfd4b9;
+  text-decoration: none;
+}
+footer p span {
+  font-size: 19px;
+}
+.footer_txtwrapper {
+  margin-top: 36px;
+  height:229px;
+  border-left:2px solid rgba(255,255,255,0.6);
+  width: 100%;
+  padding-left: 50px;
+}
+@media (max-width: 768px) {
+    .footer_txtwrapper {
+        text-align: center;
+        padding-left:0px;
+        border:none;
+    }
+}
+.social_icons {
+  margin-top:30px;
+  margin-right:auto;
+  margin-left:auto;
+  text-align: center;
+}
+.social_icons i {
+  margin-right:22px;
+}
+/*----------------------------------------- Temp classes  ----------------------------------------- */
+.intro_leftcolumn, .intro_rightcolumn  {
+   text-align: left;
+   line-height: 12px;
+}
+.intro_leftcolumn h1, .intro_rightcolumn h1 {
+   color:#ae9a65;
+   padding-right:30px;
+}
+.intro_leftcolumn p, .intro_rightcolumn p {
+   padding-right:32px;
+   line-height: 22px;
+   padding-bottom: 30px;
+}
+.intro_rightcolumn img:first-child {
+    margin-bottom:40px;
+}
+.col-xs-12 {
+    width: 100%;
+}
+/*----------------------------------------- Navigation  ----------------------------------------- */
+#header_test {
+    height:118px;
+    padding-top: 33px;
+}
+.header_container {
+    height:62px;
+    width: 972px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.header_container ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.header_container img {
+    padding: 0px 35px;
+}
+.header_container li {
+    float: left;
+}
+.header_container li a {
+    display: block;
+    color: #ae924c;
+    text-transform: uppercase;
+    padding: 0px 12px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.menu_spacer {
+    padding-top: 17px !important;
+}
+.menu_spacer_welcome {
+    padding-left:0px !important;
+}
+.menu_spacer_about {
+    padding-right:0px !important;
+}
+#header_test .header_container li a.active span{
+    border-bottom: 1px solid #dadada;
+    color:#886e2f;
+}
+.hero_welcome .large_logo {
+    position: absolute;
+    top: 242px;
+    left: calc(50% - 341px);
+}
+/*------------- Mobile Menu  -----------*/
+@media (max-width: 990px) {
+  .hero_welcome .large_logo {
+    display:none;
+  }
+  #header_test .header_container {
+    display:none;
+  }
+}
+.mobile_mainlogo_toppart {
+    margin-left:20px;
+    margin-bottom: 30px;
+}
+.mobile_mainlogo_full {
+    position: absolute;
+    top: 52px;
+    left: calc(50% - 52px);
+}
+.mobile_mainlogo_full_bottom {
+    position: absolute;
+    top: 214px;
+    left: calc(50% - 238px);
+}
+@media (max-width: 500px) {
+    .mobile_mainlogo_full_bottom {
+      width:95%;
+      left:3%;
+  }
+}
+@media (min-width: 989px) {
+    .mobile_mainlogo_full, .mobile_mainlogo_full_bottom {
+        display:none;
+    }
+}
+.header_mobile_container {
+    height:62px;
+    width: 50%;
+    width:100%;
+}
+.header_mobile_container i {
+    font-size: 24px;
+}
+@media (min-width: 990px) {
+    .header_mobile_container {
+        display:none;
+    }
+}
+.btn-hamburger {
+    border:1px solid #ddd;
+    border-radius: 4px;
+    color:black;
+    padding: 10px 10px 3px 10px;
+}
+.header_mobile_container a:hover {
+    color: #886e2f;
+}
+.mobile_logo {
+  width: 280px;
+  height: auto;
+  margin: 3px 5px 32px 10px;
+}
+/*----------------------------------------- Mobile Navigation ----------------------------------------- */
+nav, nav ul, nav li {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+}
+nav ol, nav ul {
+   list-style: none;
+}
+nav[role="navigation"] {
+    width: 100%;
+    background: #fff;
+    height: 40px;
+    display: block;
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+}
+nav[role="navigation"] a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+     padding: 0 15px; 
+    /* line-height: 35px; */
+}
+nav[role="navigation"] li {
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+    border: 1px solid #e8e8e8;
+    padding: 10px 0;
+}
+nav[role="navigation"] span {
+    font-size: 35px;
+    float: right;
+    margin-right: 20px;
+}
+.menu {
+    display: none;
+}
+/*----------------------------------------- Mobile Nav - Slide Out ----------------------------------------- */
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 30px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+.overlay .closebtn {
+    position: absolute;
+    top: 6px;
+    right: 11px;
+    font-size: 60px;
+}
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+/*------------- Fixed Mobile Footer  -----------*/
+@media (max-width: 767px) {
+    .mobile_reservation_footer {
+        position: fixed;
+        background-color:#ae9965;
+        width:100%;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        color: white;
+        text-align: center;
+        font-size:20px;
+        z-index: 10000;
+        padding:10px 0px 15px 0px;
+        border-top: 1px solid #9c8753
+    }
+    .mobile_reservation_footer a {
+    color:white;
+    }
+}
+@media (min-width: 767px) {
+    .mobile_reservation_footer {
+        display:none;
+    }
+}
+/*----------------------------------------- Events Page ----------------------------------------- */
+#events_section {
+  padding: 40px;
+  background-color:#f5f4f3;
+  height: 490px;
+}
+@media (max-width: 824px) {
+    #events_section {
+      height: 890px;
+    }
+}
+@media (max-width: 562px) {
+    #events_section {
+      height: 775px;
+    }
+}
+#events_section ul {
+  list-style-type: none;
+}
+#events_section h2 {
+  color:#3f3f3f;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  padding:20px 0 40px 0;
+}
+/*--------------------------------------- Modal Popup  --------------------------------------- */
+.modal-content img {
+    width:792px;
+    height:446px;
+    }
+}
+@media (min-width: 576px) {
+.modal-dialog {
+        max-width: 792px !important;
+    }
+}
+/*--------------------------------------- Happenings Effects --------------------------------------- */
+.grid {
+    position: relative;
+    clear: both;
+    margin: 0 auto;
+    padding: 1em 0 4em;
+    max-width: 1000px;
+    list-style: none;
+    text-align: center;
+}
+.grid figure {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin: 10px 1%;
+    min-width: 320px;
+    max-width: 480px;
+    max-height: 360px;
+    width: 48%;
+    height: auto;
+    background: #3085a3;
+    text-align: center;
+    cursor: pointer;
+}
+figure.effect-ming {
+    background: #030c17;
+}
+figure.effect-ming:hover img {
+    opacity: 0.4;
+}
+@media (max-width: 562px) {
+#events_section {
+    height: 825px;
+  }
+}
+@media (max-width: 562px) {
+  .grid figure p {
+    letter-spacing: 0px !important;
+    font-size: 16px !important;
+  }
+}
+@media (max-width: 562px) {
+  figure.effect-sarah p {
+    padding: 2px 0 !important;
+  }
+}
+@media (max-width: 562px) {
+  .grid figure span {
+    display:none;
+  }
+}
+@media (max-width: 562px) {
+  .grid figure figcaption {
+    padding: 40px 15px 10px 15px !important;
+  }
+}
+
+
+/*--------------------------------------- Footer Map --------------------------------------- */
+.main_content {
+  position: relative;
+  z-index: 1000;
+  background:white;
+}
+#footer_map {
+  height:400px;
+  background-color:gray;
+  color:white;
+  font-size: 14px;
+  position: fixed;
+  z-index: 0;
+  left:0;
+  bottom:0;
+  width:100%;
+}
+.footer_spacer {
+    position: relative;
+    z-index: -1;
+    height: 400px;
+    pointer-events: none;
+    border:2px solid pink;
+}

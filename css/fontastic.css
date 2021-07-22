@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "pierponts";
+  src:url("../fonts/pierponts.eot");
+  src:url("../fonts/pierponts.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/pierponts.woff") format("woff"),
+    url("../fonts/pierponts.ttf") format("truetype"),
+    url("../fonts/pierponts.svg#pierponts") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "pierponts" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "pierponts" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-instagram:before {
+  content: "\61";
+}
+.icon-facebook:before {
+  content: "\62";
+}
+.icon-twitter:before {
+  content: "\63";
+}
+.icon-bars:before {
+  content: "\64";
+}
+.icon-navicon:before {
+  content: "\65";
+}
+.icon-navicon-round:before {
+  content: "\66";
+}
